@@ -1,0 +1,9 @@
+{
+  "name": "lms-ngx-auth",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@auth0/angular-jwt": "^3.0.0"
+  }
+}
