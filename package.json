@@ -5,5 +5,18 @@
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0",
     "@auth0/angular-jwt": "^3.0.0"
+  },
+  "main": "bundles/lms-ngx-auth.umd.js",
+  "module": "fesm5/lms-ngx-auth.js",
+  "es2015": "fesm2015/lms-ngx-auth.js",
+  "esm5": "esm5/lms-ngx-auth.js",
+  "esm2015": "esm2015/lms-ngx-auth.js",
+  "fesm5": "fesm5/lms-ngx-auth.js",
+  "fesm2015": "fesm2015/lms-ngx-auth.js",
+  "typings": "lms-ngx-auth.d.ts",
+  "metadata": "lms-ngx-auth.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
   }
 }

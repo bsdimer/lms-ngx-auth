@@ -1,7 +1,6 @@
-import {RoleEntity} from './role-entity';
-import {UserEntityProperty} from './user-entity-property';
-
-export class UserEntity {
+import { RoleEntity } from './role-entity';
+import { UserEntityProperty } from './user-entity-property';
+export declare class UserEntity {
     authorities: RoleEntity[];
     email: string;
     emailVerified: boolean;
